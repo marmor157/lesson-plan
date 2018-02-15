@@ -1,0 +1,64 @@
+﻿#paneSettings{
+    position:fixed;
+    top:0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    animation-timing-function: ease-in;
+    }
+#paneSettings.animate
+{
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    animation-timing-function: ease-in;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+
+
+@media only screen and (orientation: landscape) {
+    #paneSettings{
+        left:-30%;
+        width:30%;
+    }
+    .settingsButton {
+    width:100%;
+    height:50px;
+    font-size: 20px;
+    text-align:center;
+    line-height:50px;
+    vertical-align:middle;
+    margin-bottom: 5px;
+    padding-left:5px;
+}
+.settingButtonIcon {
+    width:50px;
+    height:50px;
+    float:left;
+
+}
+}
+@media only screen and (orientation: portrait) {
+    #paneSettings{
+        left:-100%;
+        width:100%;
+    }
+    .settingsButton {
+    width:100%;
+    height:100px;
+    font-size: 30px;
+    text-align:center;
+    line-height:100px;
+    vertical-align:middle;
+    margin-bottom: 5px;
+    padding-left:5px;
+    }
+.settingButtonIcon {
+    width:100px;
+    height:100px;
+    float:left;
+
+}
+}

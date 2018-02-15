@@ -1,0 +1,46 @@
+﻿#hoursPicker
+{
+    text-align:center;
+    
+}
+.hoursPickClock
+{
+    display:inline-block;
+    font-size:5vh;
+}
+.pickNumber{
+    display:inline-block;
+    border: 1px solid black;
+    margin:5px;
+    width:50px;
+}
+#hoursAccept{
+    width:30px;
+    height:30px;
+    background-image:url("../gfx/accept.png");
+    background-size:30px;
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+#hoursPicker #help
+{
+    display:none;
+}
+#hoursPicker #help_id
+{
+    display:none;
+}
+#hoursPickerAccept{
+    display:block;
+    color:white;
+    background-color: red;
+    width:150px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    vertical-align: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:20px;
+}

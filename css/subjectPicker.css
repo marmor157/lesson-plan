@@ -1,0 +1,63 @@
+#subjectPicker
+{
+    text-align:center;
+    
+}
+#subjectPicker #help
+{
+    display:none;
+}
+#subjectPicker #help_id
+{
+    display:none;
+}
+#subjectPicker #help_day
+{
+    display:none;
+}
+#subjectPickerAccept{
+    display:block;
+    color:white;
+    background-color: red;
+    width:150px;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    vertical-align: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:20px;
+}
+#subjectPicker table{
+    padding:0;
+    margin:0;
+    width:100%;
+}
+#subjectPicker tr
+{
+    height:50px;
+}
+#subjectPicker td
+{
+    width:33%;
+    text-align:center;
+    border: 1px solid black;
+    border-collapse:collapse
+}
+
+#subjectPicker
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#subjectContainer{
+    width: 100%;
+    height: 95%;
+    overflow-y: scroll;
+    padding-right: 17px;
+}
+#nSali{
+    width:98%;
+    height: 100px;
+}

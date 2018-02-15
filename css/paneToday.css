@@ -1,0 +1,28 @@
+﻿#paneToday table{
+    padding:0;
+    margin:0;
+    width:100%;
+}
+#paneToday tr
+{
+    height:50px;
+}
+#paneToday td
+{
+    width:20%;
+    text-align:center;
+    border: 1px solid black;
+    border-collapse:collapse
+}
+#paneToday
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#dayContainer{
+    width: 100%;
+    height: 95%;
+    overflow-y: scroll;
+    padding-right: 17px;
+}

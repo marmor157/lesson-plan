@@ -1,0 +1,31 @@
+﻿#lessonNow{
+    text-align:center;
+    margin-bottom:1%
+}
+#lessonNext{
+    text-align:center;
+}
+@media only screen and (orientation: landscape) {
+#mainScreen {
+    padding-top:5%;
+    text-align:center;
+    font-size:3vh;
+}
+#mainScreen #clock {
+    font-size: 20vh;
+}
+ }
+
+@media only screen and (orientation: portrait) {
+#mainScreen {
+    position:relative;
+    top:-200px;
+    padding-top:5%;
+    text-align:center;
+    font-size:4vh;
+}
+#mainScreen #clock{
+    font-size: 20vh;
+}
+
+}
